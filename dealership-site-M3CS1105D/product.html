@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AERO&reg; - Automobile Products</title>
+
+	<style>
+
+		html{
+			font-family: Calibri;
+			overflow-x: hidden;
+		}
+
+		body {
+			margin: 0;
+		}
+
+		.list{
+			position: absolute;
+			width: 100%;
+			top: 30%;
+			margin-left: 8%;
+		}
+
+		.homebar {
+			overflow: hidden;
+			background-color: black;
+			position: fixed;
+			width: 100%;
+			height: 15%;
+			top: 0;
+			z-index: 99;
+			padding: 0px;
+			border: 2px;
+		}
+
+		.homebar a{
+			height: 100%;
+			background-color: black;
+			color: white;
+			padding: 20px;
+			padding-left: 60px;
+			font-size: 50px;
+			display: inline-block;
+			
+		}
+
+		.homebar .btn{
+			float: right;
+			text-align: center;
+			background: white;
+			border: 0;
+			width: 10%;
+			padding: 10px;
+			height: 100%;
+			top: 0px;
+			transition: 0.4s;
+		}
+		.btn:hover{
+			background-color:#00B2BB;
+			transition: 0.4s;
+		}
+		
+		.navbar {
+			display: inline-block;
+			height: 100%;
+			overflow-x: hidden;
+			background-color: #00B2BB;
+			transition: 0.4s;
+			position: fixed;
+			width: 15%;
+			top: 15%;
+			z-index: 99;
+
+		}
+
+		.navbar a{
+			padding: 20px;
+			font-family: Calibri;
+			color: white;
+			text-align: left;
+			font-size: 30px;
+			display: block;
+			text-decoration: none;
+			background-color: #00B2BB;
+			transition: 0.4s;
+		}
+		.navbar a:hover{
+			background-color: grey;
+			transition: 0.4s;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<form method="GET" border="0" action="index.html" target="_self">
+			<div class="homebar">
+
+				<a>
+					<font face="Magneto" size="30">AERO&reg;</font>
+					<font size="6"> - Automobile Products</font>
+				</a>
+				
+					<button class="btn" >
+						<img src="image/home.png" height="60px">
+					</button>
+			</div>
+	</form>
+
+
+	<a id="welcome">
+	</a>
+
+	<div class="navbar">
+		<a href="#">TOYOTA</a>
+		<a href="#">PROTON</a>
+	</div>
+
+	<div class="list">
+		<table width="70%" align="center" border="3" style=" bottom: 10px;
+		top: 0; border-color: black; text-align: left; font-size: 20px;" cellpadding="20px">
+			<tr style="text-align: center">
+				<td>
+					Car Models
+				</td>
+				<td>
+					Specifications
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: center" width="50%">
+					<img src="image/iriz.jpeg" width=60%"><br>PROTON X70<br>
+				</td>
+				<td>
+					Price:			RM 94,800<br>
+					Installment: 	RM 1,024/Month
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: center">
+					<img src="image/iriz.jpeg" width=60%"><br>PROTON IRIZ<br>
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: center">
+					<img src="image/iriz.jpeg" width=60%"><br>PROTON SAGA<br>
+				</td>
+				<td>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+	<script>
+	</script>
+
+
+</body>
+</html>
